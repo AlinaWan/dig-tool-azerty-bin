@@ -14,8 +14,30 @@ class AutomationManager:
             'figure_8': ['d', 'w', 'd', 'w', 'a', 's', 'a', 's'],
             'random': ['w', 'a', 's', 'd'],
             'forward_back': ['w', 'w', 's', 's'],
-            'left_right': ['a', 'a', 'd', 'd']
+            'left_right': ['a', 'a', 'd', 'd'],
+            '_KC_RectOffset_v1': [
+                "w", "w", "w", "w", "w", "d", "s", "s", "s", "s", "s", "d",
+                "w", "w", "w", "w", "w", "w", "a", "a", "s", "s", "s", "s",
+                "s", "s", "d", "w", "w", "w", "w", "w", "d", "s", "s", "s",
+                "s", "s", "s", "a", "a", "w"
+            ],
+            '_KC_RectOffset_v2': [
+                "w", "w", "w", "w", "w", "d", "s", "s", "s", "s", "s", "d",
+                "w", "w", "w", "w", "w", "d", "s", "s", "s", "s", "s", "d",
+                "w", "w", "w", "w", "w", "w", "a", "a", "a", "a", "s", "s",
+                "s", "s", "s", "s", "d", "w", "w", "w", "w", "w", "d", "s",
+                "s", "s", "s", "s", "d", "w", "w", "w", "w", "w", "d", "s",
+                "s", "s", "s", "s", "s", "a", "a", "a", "a", "w"
+            ],
+            '_KC_CompactOffset_v1': [
+                "w", "w", "d", "s", "s", "d", "w", "w", "w", "a", "a", "s",
+                "s", "s", "d", "w", "w", "d", "s", "s", "s", "a", "a", "w"
+            ],
+            '_KC_SimpleRect_v1': [
+                "w", "w", "w", "w", "d", "s", "s", "s", "s", "a"
+            ]
         }
+        
         self.sell_button_position = None
         self.sell_count = 0
         self.is_selling = False
